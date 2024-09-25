@@ -4,7 +4,7 @@ from enum import Enum
 RANDOM_SEED = 42
 DATETIME_FORMAT = "%d-%m-%Y_%H:%M:%S"
 
-ORIGINAL_DATA_DIR = os.path.relpath("./data/original_data")
+ORIGINAL_DATA_DIR = os.path.relpath("./data/")
 COMBINED_DATA_DIR = os.path.relpath("./data/combined_data")
 
 MODEL_2_LABEL = {

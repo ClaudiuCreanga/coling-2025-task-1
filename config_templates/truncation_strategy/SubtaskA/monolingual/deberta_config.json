@@ -1,6 +1,5 @@
 {
     "task": "SubtaskA",
-    "track": "monolingual",
     "submission_format": "csv",
     "model": "deberta",
     "tokenizer": {
@@ -12,7 +11,7 @@
         "dataset_type_settings": {
             "truncation_strategy": "head_only"
         },
-        "data_dir": "./data/combined_data",
+        "data_dir": "./data/",
         "label_column": "label",
         "max_len": 512,
         "batch_size": 32,
